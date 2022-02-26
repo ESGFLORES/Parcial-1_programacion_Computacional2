@@ -63,6 +63,6 @@ public class EjemploTabs extends AppCompatActivity {
     private void linking (){
         tabLayout = findViewById(R.id.tabLayout);
         viewPager = findViewById(R.id.pageView);
-
+//sool para òavmdovmadv
     }
 }
