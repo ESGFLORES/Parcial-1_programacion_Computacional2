@@ -41,4 +41,14 @@
     <string name="Anterior">PÁGINA ANTERIOR</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //Reproductor
+    <string name="RT">Reproductor</string>
+    <string name="RT1">DETENER</string>
+    <string name="RT2">REPRODUCIR</string>
+    <string name="RT3">En ejecucion </string>
+    <string name="RT4">REGRESAR AL MENU </string>
+
+
+
 </resources>

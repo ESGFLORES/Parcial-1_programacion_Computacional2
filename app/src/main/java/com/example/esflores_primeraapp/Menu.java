@@ -7,8 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Menu extends AppCompatActivity {
 
+public class Menu extends AppCompatActivity {
+    Button atras;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,6 +43,14 @@ public class Menu extends AppCompatActivity {
         Intent tb = new Intent (getApplicationContext(), EjemploTabs.class);
         startActivity(tb);
         });
+
+        ace = findViewById(R.id.btReproductor);
+        ace.setOnClickListener(view -> {
+            Intent Menu = new Intent (getApplicationContext(), Reproductor.class);
+            startActivity(Menu);
+        });
+
+
 
     }
 }
