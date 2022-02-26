@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controllers.AcercaDe">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="Desarrolladores:"
+            android:textSize="35dp"/>
+
+
+        <TextView
+            android:id="@+id/txtIn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtTitulo"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/I1"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/txtIn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtIn1"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/I2"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/txtIn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtIn2"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/I3"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/txtIn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtIn3"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/I4"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/txtIn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtIn4"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/I5"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/txtIn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtIn5"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/I6"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Regresar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="450dp"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -39,4 +39,6 @@
     //Proximidad
     <string name="ti">SENSOR DE PROXIMIDAD</string>
     <string name="Anterior">PÁGINA ANTERIOR</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -37,7 +37,11 @@ public class Menu extends AppCompatActivity {
             }
         });
 
-
+        ace = findViewById(R.id.btnTabs);
+        ace.setOnClickListener(view -> {
+        Intent tb = new Intent (getApplicationContext(), EjemploTabs.class);
+        startActivity(tb);
+        });
 
     }
 }
