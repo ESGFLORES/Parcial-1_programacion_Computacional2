@@ -1,9 +1,9 @@
 package com.example.esflores_primeraapp;
 
+import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
-
-import android.os.Bundle;
 
 import com.example.esflores_primeraapp.Controllers.PagerController;
 import com.google.android.material.tabs.TabItem;
@@ -63,6 +63,6 @@ public class EjemploTabs extends AppCompatActivity {
     private void linking (){
         tabLayout = findViewById(R.id.tabLayout);
         viewPager = findViewById(R.id.pageView);
-//sool para òavmdovmadv
+
     }
 }
