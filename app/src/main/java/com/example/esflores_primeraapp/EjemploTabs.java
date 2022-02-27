@@ -1,6 +1,8 @@
 package com.example.esflores_primeraapp;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
@@ -43,26 +45,17 @@ public class EjemploTabs extends AppCompatActivity {
                     pagerAdapter.notifyDataSetChanged();
                 }
             }
-
             @Override
             public void onTabUnselected(TabLayout.Tab tab) {
-
             }
-
             @Override
             public void onTabReselected(TabLayout.Tab tab) {
-
             }
         });
-
         viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
     }
-
-
-
     private void linking (){
         tabLayout = findViewById(R.id.tabLayout);
         viewPager = findViewById(R.id.pageView);
-
     }
 }

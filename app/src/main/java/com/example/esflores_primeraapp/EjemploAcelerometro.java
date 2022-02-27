@@ -73,14 +73,14 @@ public class EjemploAcelerometro extends AppCompatActivity {
             @Override
             public void onAccuracyChanged(Sensor sensor, int i) {
             }
+
         };
         star();
 
     }
     private void sound(){
-        MediaPlayer mediaPlayer = MediaPlayer.create(this,R.raw.bart);
+        MediaPlayer mediaPlayer = MediaPlayer.create(this,R.raw.adios);
         mediaPlayer.start();
-
     }
 
     private void star(){
@@ -101,4 +101,5 @@ public class EjemploAcelerometro extends AppCompatActivity {
         star();
         super.onResume();
     }
+
 }

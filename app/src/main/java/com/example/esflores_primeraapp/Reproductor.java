@@ -19,7 +19,7 @@ public class Reproductor extends AppCompatActivity implements
 
         iniciar = (Button)findViewById(R.id.btIniciar);
         parar = (Button)findViewById(R.id.btDetener);
-        mediaPlayer = MediaPlayer.create(this,R.raw.bart);
+        mediaPlayer = MediaPlayer.create(this,R.raw.lit );
 
 
 
@@ -30,8 +30,8 @@ public class Reproductor extends AppCompatActivity implements
 
         ace = findViewById(R.id.REGRESAMENU);
         ace.setOnClickListener(view -> {
-            Intent REPRODUCTOR = new Intent (getApplicationContext(), Menu.class);
-            startActivity(REPRODUCTOR);
+            Intent repro = new Intent (Reproductor.this, Menu.class);
+            startActivity(repro);
         });
 
 
